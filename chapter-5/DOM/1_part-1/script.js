@@ -1,5 +1,8 @@
-// dom in js < SELECTING THE ELEMENT >
+// DOM IN JS
 //-----------
+
+//                  < SELECTING THE ELEMENT >
+//---------------------------------------------------------------------------
 // Selecting the element (getElementByid, getelementByTagname,getElementsByClassName,querySelector,querySelectorAll)
 
 // 1) getElementById
@@ -68,5 +71,9 @@ console.log(document.write(Date()));
 //                 < Changing the Style / chaning the css >
 
 let myBackground = document.querySelector("body");
-myBackground.style.backgroundColor = "green"
-console.log(myBackground)
+myBackground.style.backgroundColor = "black";
+console.log(myBackground);
+
+let myImage = document.querySelector("img");
+myImage.style.borderRadius = "15px";
+console.log(myImage);
