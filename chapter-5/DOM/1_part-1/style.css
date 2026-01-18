@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body {
+  height: 100%;
+  width:100%;
+}
+body{
+  background-color: rgb(31, 30, 30);
+  color: rgb(255, 255, 255);
+  padding:40px;
+}
+#headline{
+  text-align: center;
+  color: aquamarine;
+}
+#story{
+  margin-top: 10px;
+  margin: 15px;
+  font-size:20px;
+}
+ul,li{
+  font-size: 20px;
+  margin-left: 15px;
+}
+img{
+  width: 300px;   /* ya 50% */
+  height: auto;
+}
+#photo{
+  margin: 20px;
+}
