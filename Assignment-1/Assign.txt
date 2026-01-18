@@ -1,0 +1,99 @@
+🟢 BEGINNER LEVEL (15 Questions)
+===============================================
+User se name lo aur greet karo using template string
+
+Check karo number even / odd
+
+Marks ke basis par grade system banao
+
+1–50 tak even numbers print karo
+
+Array se largest number find karo
+
+String me vowels count karo
+
+Email me @ aur .com check karo
+
+Array me se duplicate values remove karo
+
+Ek function banao jo square of number return kare
+
+var, let, const ka real difference code ke saath dikhao
+
+Array ka total sum nikaalo (reduce)
+
+Object se specific property access karo
+
+for, forEach, for...of ka ek-ek use likho
+
+== vs === example ke saath samjhao
+
+undefined, null, NaN ka real example likho
+
+
+
+🟡 INTERMEDIATE LEVEL (15 Questions)
+============================================
+Function banao jo sirf even numbers return kare
+
+map use karke array ko double karo
+
+filter + map ek sath use karo
+
+reduce se cart total calculate karo
+
+Higher-Order Function ka example likho
+
+Callback function real example ke saath banao
+
+Object destructuring ka use dikhao
+
+Array destructuring ka real example likho
+
+this keyword ka behavior object ke andar dikhao
+
+Ek function me default parameter use karo
+
+setTimeout se delayed message show karo
+
+forEach me break kyu nahi chalta – prove karo
+
+Hoisting ka bug example likho
+
+Shallow copy vs deep copy example
+
+Array ko price ke basis par sort karo
+
+
+
+🔵 ADVANCED / JOB LEVEL (15 Questions)
+====================================================
+Closure use karke counter function banao
+
+Private variable create karo using closure
+
+Simple Todo logic banao (add, delete)
+
+Login validation function likho
+
+Search feature banao (array + input)
+
+map + filter + reduce ek sath use karo
+
+call, apply, bind ka basic example
+
+this arrow function me kaise behave karta hai
+
+Object.freeze() vs Object.seal() example
+
+Recursion se factorial banao
+
+for...in vs for...of real use case
+
+Event loop ka basic example (setTimeout)
+
+Error handling using try...catch
+
+API response jaisa object process karo
+
+Memory leak ka simple example (interval clear na karna)
