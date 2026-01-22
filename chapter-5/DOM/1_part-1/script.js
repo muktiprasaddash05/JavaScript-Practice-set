@@ -1,5 +1,5 @@
-// DOM IN JS
-//-----------
+//            DOM < Document Object Model > IN JavaScript
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 //                  < SELECTING THE ELEMENT >
 //---------------------------------------------------------------------------
@@ -76,7 +76,7 @@ myBackground.style.backgroundColor = "black";
 console.log(myBackground);
 
 let myImage = document.querySelector("img");
-myImage.style.borderRadius = "15px";
+myImage.style.borderRadius = "16px";
 console.log(myImage);
 
 //=================================================================================
@@ -96,3 +96,13 @@ let latPara = document.querySelector("#pp");
 let repara = latPara.classList.remove("mylastpara");
 let adpara = latPara.classList.add("mylastpara");
 let topara = latPara.classList.toggle("mylastpara");
+
+// < Dynamic DOM Manipulation >
+//< Method > :-
+//=================
+//createElement(), createTextNode(), append(), insertBefore(), replaceChild(), removeChild(), remove()childNodes
+
+
+//< Property >
+//================
+//firstChild, lastChild Property, firstElementChild, lastElementChild
