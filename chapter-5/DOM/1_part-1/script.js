@@ -91,8 +91,7 @@ console.log(heading1.removeAttribute("class")); // remove the attribute
 
 //==================================================================================
 
-// Update the Style:  < add, remove, toggle classlist >
-// how to add class attribute on the element :
+//            < add, remove, toggle classlist >
 let latPara = document.querySelector("#pp");
 let repara = latPara.classList.remove("mylastpara");
 let adpara = latPara.classList.add("mylastpara");
