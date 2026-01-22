@@ -40,6 +40,7 @@ console.log(contlist);
 //                 < Changing the HTML >
 
 //Changing the HTML (innerHTML, textcontent,innerText, attribute, document.write)
+
 let heading = document.querySelector("#headline");
 heading.innerHTML = "<i>THALA FOR A RESON</i>";
 console.log(heading);
@@ -77,3 +78,18 @@ console.log(myBackground);
 let myImage = document.querySelector("img");
 myImage.style.borderRadius = "15px";
 console.log(myImage);
+
+//=================================================================================
+
+//              < Chnanging the attribute >
+// getattribute, setattribute, removeattribute, classList
+
+let heading1 = document.querySelector("h1");
+let att = heading1.getAttribute("class"); // getattribute
+let stt = heading1.setAttribute("style", "color:red"); // setattribute and add style
+console.log(heading1.removeAttribute("class")); // remove the attribute
+
+// how to add class attribute on the element :
+let getClass = document.querySelector("#photo");
+let addClass = getClass.classList.add("dhoni");
+console.log(addClass);
