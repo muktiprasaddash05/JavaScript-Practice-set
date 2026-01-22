@@ -82,14 +82,18 @@ console.log(myImage);
 //=================================================================================
 
 //              < Chnanging the attribute >
-// getattribute, setattribute, removeattribute, classList
+// getattribute, setattribute, removeattribute,
 
 let heading1 = document.querySelector("h1");
 let att = heading1.getAttribute("class"); // getattribute
 let stt = heading1.setAttribute("style", "color:red"); // setattribute and add style
 console.log(heading1.removeAttribute("class")); // remove the attribute
 
+//==================================================================================
+
+// Update the Style:  < add, remove, toggle classlist >
 // how to add class attribute on the element :
-let getClass = document.querySelector("#photo");
-let addClass = getClass.classList.add("dhoni");
-console.log(addClass);
+let latPara = document.querySelector("#pp");
+let repara = latPara.classList.remove("mylastpara");
+let adpara = latPara.classList.add("mylastpara");
+let topara = latPara.classList.toggle("mylastpara");
