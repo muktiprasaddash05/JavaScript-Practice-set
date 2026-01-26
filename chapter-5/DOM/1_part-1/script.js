@@ -124,8 +124,18 @@ parent.insertBefore(myseondsuperHeading, refchild);
 let myremoveheading = document.querySelector(".virat");
 myremoveheading.remove();
 
-
-
 //< Property >
 //================
-//firstChild, lastChild Property, firstElementChild, lastElementChild
+//firstElementChild, lastElementChild, nextElementSibiling, parentElement, childNodes
+const parentHome = document.querySelector("#parent"); // parent -------> child
+console.log(parentHome);
+console.log(parentHome.children);
+console.log(parentHome.children[5].innerHTML);
+console.log(parentHome.firstElementChild);
+console.log(parentHome.lastElementChild);
+
+const childHome = document.querySelector(".class-list");
+console.log(childHome);
+console.log(childHome.parentElement); // child ------------> parent
+console.log(childHome.nextElementSibling);
+console.log(" NODES:- ", parentHome.childNodes);

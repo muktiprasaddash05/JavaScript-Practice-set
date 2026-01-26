@@ -32,4 +32,13 @@ img{
 #photo{
   margin: 20px;
 }
-
+#parent{
+  background-color: #ff7043;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding:10px;
+  height:30%;
+  width:30%;
+  color:black;
+  font-weight: 400;
+}
